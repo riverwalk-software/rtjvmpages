@@ -1,0 +1,1675 @@
+<html lang="en">
+  <head>
+    <title>
+      Rock the JVM | Online Courses and Hands-On Training on Scala, Apache Spark, Cats Effect, ZIO and the JVM
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <meta name="description" content="Learn Scala, Kotlin, functional programming (Cats Effect, ZIO), big data and streaming (Apache Spark, Flink), all with hands-on online courses." />
+    <meta property="og:site_name" content="Rock the JVM!" />
+    <meta property="og:title" content="Rock the JVM!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Online courses and hands-on training on Scala, Kotlin, Apache Spark, Flink, ZIO, Cats Effect, Akka and more" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=no"
+    />
+    <link
+      href="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:32,height:32/https://www.filepicker.io/api/file/VX5Xh4d3Qc29jH9UUmfO"
+      rel="icon"
+      type="image/png"
+    />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:900,900italic,400,400italic,700,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151345942-2"></script>
+    <meta name="google-site-verification" content="1SMoF7Ob0CWSurdaiGULuZHAat_Yfrk0-MIqx7zVi_A" />
+    <script type="text/javascript" async>
+      /*! lazysizes - v4.1.1 */
+!function(a,b){var c=b(a,a.document);a.lazySizes=c,"object"==typeof module&&module.exports&&(module.exports=c)}(window,function(a,b){"use strict";if(b.getElementsByClassName){var c,d,e=b.documentElement,f=a.Date,g=a.HTMLPictureElement,h="addEventListener",i="getAttribute",j=a[h],k=a.setTimeout,l=a.requestAnimationFrame||k,m=a.requestIdleCallback,n=/^picture$/i,o=["load","error","lazyincluded","_lazyloaded"],p={},q=Array.prototype.forEach,r=function(a,b){return p[b]||(p[b]=new RegExp("(\\s|^)"+b+"(\\s|$)")),p[b].test(a[i]("class")||"")&&p[b]},s=function(a,b){r(a,b)||a.setAttribute("class",(a[i]("class")||"").trim()+" "+b)},t=function(a,b){var c;(c=r(a,b))&&a.setAttribute("class",(a[i]("class")||"").replace(c," "))},u=function(a,b,c){var d=c?h:"removeEventListener";c&&u(a,b),o.forEach(function(c){a[d](c,b)})},v=function(a,d,e,f,g){var h=b.createEvent("CustomEvent");return e||(e={}),e.instance=c,h.initCustomEvent(d,!f,!g,e),a.dispatchEvent(h),h},w=function(b,c){var e;!g&&(e=a.picturefill||d.pf)?(c&&c.src&&!b[i]("srcset")&&b.setAttribute("srcset",c.src),e({reevaluate:!0,elements:[b]})):c&&c.src&&(b.src=c.src)},x=function(a,b){return(getComputedStyle(a,null)||{})[b]},y=function(a,b,c){for(c=c||a.offsetWidth;c<d.minSize&&b&&!a._lazysizesWidth;)c=b.offsetWidth,b=b.parentNode;return c},z=function(){var a,c,d=[],e=[],f=d,g=function(){var b=f;for(f=d.length?e:d,a=!0,c=!1;b.length;)b.shift()();a=!1},h=function(d,e){a&&!e?d.apply(this,arguments):(f.push(d),c||(c=!0,(b.hidden?k:l)(g)))};return h._lsFlush=g,h}(),A=function(a,b){return b?function(){z(a)}:function(){var b=this,c=arguments;z(function(){a.apply(b,c)})}},B=function(a){var b,c=0,e=d.throttleDelay,g=d.ricTimeout,h=function(){b=!1,c=f.now(),a()},i=m&&g>49?function(){m(h,{timeout:g}),g!==d.ricTimeout&&(g=d.ricTimeout)}:A(function(){k(h)},!0);return function(a){var d;(a=a===!0)&&(g=33),b||(b=!0,d=e-(f.now()-c),0>d&&(d=0),a||9>d?i():k(i,d))}},C=function(a){var b,c,d=99,e=function(){b=null,a()},g=function(){var a=f.now()-c;d>a?k(g,d-a):(m||e)(e)};return function(){c=f.now(),b||(b=k(g,d))}};!function(){var b,c={lazyClass:"lazyload",loadedClass:"lazyloaded",loadingClass:"lazyloading",preloadClass:"lazypreload",errorClass:"lazyerror",autosizesClass:"lazyautosizes",srcAttr:"data-src",srcsetAttr:"data-srcset",sizesAttr:"data-sizes",minSize:40,customMedia:{},init:!0,expFactor:1.5,hFac:.8,loadMode:2,loadHidden:!0,ricTimeout:0,throttleDelay:125};d=a.lazySizesConfig||a.lazysizesConfig||{};for(b in c)b in d||(d[b]=c[b]);a.lazySizesConfig=d,k(function(){d.init&&F()})}();var D=function(){var g,l,m,o,p,y,D,F,G,H,I,J,K,L,M=/^img$/i,N=/^iframe$/i,O="onscroll"in a&&!/(gle|ing)bot/.test(navigator.userAgent),P=0,Q=0,R=0,S=-1,T=function(a){R--,a&&a.target&&u(a.target,T),(!a||0>R||!a.target)&&(R=0)},U=function(a,c){var d,f=a,g="hidden"==x(b.body,"visibility")||"hidden"!=x(a.parentNode,"visibility")&&"hidden"!=x(a,"visibility");for(F-=c,I+=c,G-=c,H+=c;g&&(f=f.offsetParent)&&f!=b.body&&f!=e;)g=(x(f,"opacity")||1)>0,g&&"visible"!=x(f,"overflow")&&(d=f.getBoundingClientRect(),g=H>d.left&&G<d.right&&I>d.top-1&&F<d.bottom+1);return g},V=function(){var a,f,h,j,k,m,n,p,q,r=c.elements;if((o=d.loadMode)&&8>R&&(a=r.length)){f=0,S++,null==K&&("expand"in d||(d.expand=e.clientHeight>500&&e.clientWidth>500?500:370),J=d.expand,K=J*d.expFactor),K>Q&&1>R&&S>2&&o>2&&!b.hidden?(Q=K,S=0):Q=o>1&&S>1&&6>R?J:P;for(;a>f;f++)if(r[f]&&!r[f]._lazyRace)if(O)if((p=r[f][i]("data-expand"))&&(m=1*p)||(m=Q),q!==m&&(y=innerWidth+m*L,D=innerHeight+m,n=-1*m,q=m),h=r[f].getBoundingClientRect(),(I=h.bottom)>=n&&(F=h.top)<=D&&(H=h.right)>=n*L&&(G=h.left)<=y&&(I||H||G||F)&&(d.loadHidden||"hidden"!=x(r[f],"visibility"))&&(l&&3>R&&!p&&(3>o||4>S)||U(r[f],m))){if(ba(r[f]),k=!0,R>9)break}else!k&&l&&!j&&4>R&&4>S&&o>2&&(g[0]||d.preloadAfterLoad)&&(g[0]||!p&&(I||H||G||F||"auto"!=r[f][i](d.sizesAttr)))&&(j=g[0]||r[f]);else ba(r[f]);j&&!k&&ba(j)}},W=B(V),X=function(a){s(a.target,d.loadedClass),t(a.target,d.loadingClass),u(a.target,Z),v(a.target,"lazyloaded")},Y=A(X),Z=function(a){Y({target:a.target})},$=function(a,b){try{a.contentWindow.location.replace(b)}catch(c){a.src=b}},_=function(a){var b,c=a[i](d.srcsetAttr);(b=d.customMedia[a[i]("data-media")||a[i]("media")])&&a.setAttribute("media",b),c&&a.setAttribute("srcset",c)},aa=A(function(a,b,c,e,f){var g,h,j,l,o,p;(o=v(a,"lazybeforeunveil",b)).defaultPrevented||(e&&(c?s(a,d.autosizesClass):a.setAttribute("sizes",e)),h=a[i](d.srcsetAttr),g=a[i](d.srcAttr),f&&(j=a.parentNode,l=j&&n.test(j.nodeName||"")),p=b.firesLoad||"src"in a&&(h||g||l),o={target:a},p&&(u(a,T,!0),clearTimeout(m),m=k(T,2500),s(a,d.loadingClass),u(a,Z,!0)),l&&q.call(j.getElementsByTagName("source"),_),h?a.setAttribute("srcset",h):g&&!l&&(N.test(a.nodeName)?$(a,g):a.src=g),f&&(h||l)&&w(a,{src:g})),a._lazyRace&&delete a._lazyRace,t(a,d.lazyClass),z(function(){(!p||a.complete&&a.naturalWidth>1)&&(p?T(o):R--,X(o))},!0)}),ba=function(a){var b,c=M.test(a.nodeName),e=c&&(a[i](d.sizesAttr)||a[i]("sizes")),f="auto"==e;(!f&&l||!c||!a[i]("src")&&!a.srcset||a.complete||r(a,d.errorClass)||!r(a,d.lazyClass))&&(b=v(a,"lazyunveilread").detail,f&&E.updateElem(a,!0,a.offsetWidth),a._lazyRace=!0,R++,aa(a,b,f,e,c))},ca=function(){if(!l){if(f.now()-p<999)return void k(ca,999);var a=C(function(){d.loadMode=3,W()});l=!0,d.loadMode=3,W(),j("scroll",function(){3==d.loadMode&&(d.loadMode=2),a()},!0)}};return{_:function(){p=f.now(),c.elements=b.getElementsByClassName(d.lazyClass),g=b.getElementsByClassName(d.lazyClass+" "+d.preloadClass),L=d.hFac,j("scroll",W,!0),j("resize",W,!0),a.MutationObserver?new MutationObserver(W).observe(e,{childList:!0,subtree:!0,attributes:!0}):(e[h]("DOMNodeInserted",W,!0),e[h]("DOMAttrModified",W,!0),setInterval(W,999)),j("hashchange",W,!0),["focus","mouseover","click","load","transitionend","animationend","webkitAnimationEnd"].forEach(function(a){b[h](a,W,!0)}),/d$|^c/.test(b.readyState)?ca():(j("load",ca),b[h]("DOMContentLoaded",W),k(ca,2e4)),c.elements.length?(V(),z._lsFlush()):W()},checkElems:W,unveil:ba}}(),E=function(){var a,c=A(function(a,b,c,d){var e,f,g;if(a._lazysizesWidth=d,d+="px",a.setAttribute("sizes",d),n.test(b.nodeName||""))for(e=b.getElementsByTagName("source"),f=0,g=e.length;g>f;f++)e[f].setAttribute("sizes",d);c.detail.dataAttr||w(a,c.detail)}),e=function(a,b,d){var e,f=a.parentNode;f&&(d=y(a,f,d),e=v(a,"lazybeforesizes",{width:d,dataAttr:!!b}),e.defaultPrevented||(d=e.detail.width,d&&d!==a._lazysizesWidth&&c(a,f,e,d)))},f=function(){var b,c=a.length;if(c)for(b=0;c>b;b++)e(a[b])},g=C(f);return{_:function(){a=b.getElementsByClassName(d.autosizesClass),j("resize",g)},checkElems:g,updateElem:e}}(),F=function(){F.i||(F.i=!0,E._(),D._())};return c={cfg:d,autoSizer:E,loader:D,init:F,uP:w,aC:s,rC:t,hC:r,fire:v,gW:y,rAF:z}}});
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"ItemList",
+      "itemListElement":[
+        {
+          "@type":"ListItem",
+          "position":1,
+          "item": {
+            "url": "http://rockthejvm.com/p/home#scala-courses",
+            "@type": "Course",
+            "name": "Learn Scala",
+            "description": "Become a master Scala programmer.",
+            "provider": {
+              "@type": "Organization",
+              "name": "Rock The JVM",
+              "sameAs": "http://rockthejvm.com"
+            }
+          }
+        },
+        {
+          "@type":"ListItem",
+          "position":2,
+      "item": {
+            "url": "http://rockthejvm.com/p/home#spark-courses",
+            "@type": "Course",
+            "name": "Learn Apache Spark",
+            "description": "Learn Apache Spark with high-performance optimizations.",
+            "provider": {
+              "@type": "Organization",
+              "name": "Rock The JVM",
+              "sameAs": "http://rockthejvm.com"
+            }
+          }
+        },
+        {
+          "@type":"ListItem",
+          "position":3,
+      "item": {
+            "url": "http://rockthejvm.com/p/home#akka-courses",
+            "@type": "Course",
+            "name": "Learn Akka",
+            "description": "Learn to build critical distributed systems with Akka.",
+            "provider": {
+              "@type": "Organization",
+              "name": "Rock The JVM",
+              "sameAs": "http://rockthejvm.com"
+            }
+          }
+        }
+      ]
+    }
+    </script>
+    <style type="text/css">
+      * {
+          margin: 0;
+          padding: 0;
+          border: 0;
+      }
+
+      body,
+      html {
+          /* font-size: 18pt;*/
+          font-family: Montserrat, sans-serif;
+      }
+
+      @media (max-width:1680px) {
+
+          body,
+          html {
+              font-size: 13pt;
+          }
+      }
+
+      @media (max-width:1280px) {
+
+          body,
+          html {
+              font-size: 13pt;
+          }
+      }
+
+      @media (max-width:980px) {
+
+          body,
+          html {
+              font-size: 11pt;
+          }
+      }
+
+
+      *,
+      :after,
+      :before {
+          box-sizing: border-box;
+      }
+
+      body {
+          -webkit-text-size-adjust: none;
+          min-width: 320px;
+          min-height: 100vh;
+          line-height: 1;
+          word-wrap: break-word;
+          overflow-x: hidden;
+      }
+
+      strong {
+          color: inherit;
+          font-weight: bolder;
+      }
+
+      em {
+          font-style: italic;
+      }
+
+      a {
+          transition: color .25s ease, background-color .25s ease, border-color .25s ease;
+          color: inherit;
+          text-decoration: underline;
+      }
+
+      body:before {
+          content: '';
+          display: block;
+          background-attachment: scroll;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          z-index: 0;
+          pointer-events: none;
+          transform: scale(1);
+          /*background-image: linear-gradient(135deg, #ff4b24 0, #540000 100%);
+          background-size: auto;*/
+          background-position: 0 0;
+          background-repeat: repeat;
+          /* added this to be the same as the rock the jvm jobs board */
+          background-size: 300%;
+          background-image: 
+            linear-gradient(
+              -45deg, rgb(38, 145, 207) 0%, rgb(43, 51, 160) 25%, rgb(96, 54, 127) 50%, rgb(153, 67, 67) 100%
+            );
+          animation: animateBG 20s ease infinite;
+      }
+
+      body:after {
+          display: block;
+          content: '';
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #000;
+          z-index: 1;
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity 1s ease-in-out 0s, visibility 1s 0s;
+          transform: scale(1);
+      }
+
+      .wrapper {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          min-height: 100vh;
+          position: relative;
+          z-index: 2;
+          overflow: hidden;
+      }
+
+      .main {
+          display: flex;
+          position: relative;
+          max-width: 100%;
+          z-index: 1;
+          align-items: center;
+          justify-content: center;
+          flex-grow: 0;
+          flex-shrink: 0;
+          text-align: center;
+          padding: 6.5rem 5rem;
+          width: 74rem;
+      }
+
+      .my-account {
+          display: flex;
+          align-items: center;
+          position: fixed;
+          top: 50px;
+          right: 50px;
+          padding: 5px;
+          border-radius: 5px;
+          z-index: 99;
+          background: #fff;
+          color: #000;
+          text-decoration: none;
+          box-shadow: 1px 1px 20px 10px #00000038;
+          font-family: Montserrat, sans-serif;
+      }
+
+      .my-account:hover .my-account__logo {
+          margin-right: 10px !important;
+      }
+
+      .my-account__logo {
+          width: 40px;
+          margin: 0 !important;
+          transition: margin .3s;
+      }
+
+      .my-account__title {
+          margin: 0 10px;
+          transition: margin .3s;
+      }
+
+
+      .hero-section {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 7.5rem 0;
+      }
+
+      .hero-section .img-wrapper {
+          width: 25%;
+      }
+
+      .hero-section .content-wrapper {
+          width: 75%;
+          text-align: left;
+      }
+
+      .hero-section .img-wrapper img {
+          width: 246px;
+      }
+
+      @media (max-width:1100px) and (min-width:768px) {
+          .hero-section .img-wrapper img {
+              width: 100%;
+          }
+      }
+
+      .main-heading {
+          text-transform: uppercase;
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          font-size: 4.25em;
+          line-height: 1.375;
+          font-weight: 900;
+          margin-bottom: 1rem;
+      }
+
+      .intro-text {
+          color: rgba(255, 255, 255, .769);
+          font-family: Montserrat, sans-serif;
+          letter-spacing: -.025rem;
+          width: 100%;
+          font-size: 1.125em;
+          line-height: 1.5;
+          font-weight: 400;
+          margin-bottom: 1rem;
+      }
+
+      .section-heading {
+          text-align: center;
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          font-size: 3.5em;
+          line-height: 1.125;
+          font-weight: 700;
+          margin-top: 3rem;
+      }
+
+      .course-box {
+          width: 100%;
+          background-color: #fff;
+          box-shadow: 0 0 1.125rem 0 rgba(0, 0, 0, .471);
+          border-radius: 1rem;
+          overflow: hidden;
+          flex-wrap: wrap;
+          display: inline-flex;
+          align-items: center;
+          margin-top: 2rem;
+      }
+
+      .free-content {
+          display: flex;
+      }
+
+      .course-box .image-wrapper {
+          width: calc(30% + 1.62rem);
+      }
+
+      .course-box .image-wrapper-2 {
+          width: calc(40% + 1.62rem);
+      }
+
+      .course-box .image-wrapper img {
+          display: block;
+          width: 100%;
+          object-fit: cover;
+          object-position: center;
+      }
+
+      /* START CUSTOM STUFF */
+      .free-content-box {
+        flex: 1;
+        background-color: #fff;
+        box-shadow: 0 0 1.125rem 0 rgba(0, 0, 0, .471);
+        border-radius: 1rem;
+        overflow: hidden;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .box-heading {
+        margin: 1rem;
+      }
+
+      .course-title a {
+        font-size: 2rem;
+        text-decoration: none;
+      }
+
+      .course-title a:hover {
+        color: #ff8800;
+      }
+
+      .content-links-container {
+        margin: 0.5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .content-link {
+        padding: 0.6rem;
+        margin: 0.2rem 0;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        line-height: 1.2rem;
+      }
+
+      .content-link:hover {
+        background: #163d77;
+        color: white;
+      }
+
+      .content-link:active {
+        background: black;
+        color: white;
+      }
+
+      .content-link:after {
+        content: '';
+        background: lightgray;
+        width: 80%;
+        height: 1px;
+        position: absolute;
+        bottom: -0.2rem;
+      }
+
+      .content-link-text {
+        display: flex;
+        align-items: center;
+      }
+
+      .content-link-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.5rem;
+      }
+
+      .articles-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 190px;
+      }
+
+      .articles-list>* {
+        flex: 1 1;
+        max-width: 200px;
+      }
+
+      .free-image-wrapper img {
+          display: block;
+          width: 100%;
+          height: 10rem;
+          object-fit: cover;
+          object-position: center;
+      }
+      
+
+      /* END CUSTOM STUFF */
+
+      @media (min-width: 1131px) {
+          .course-box .image-wrapper img {
+              /*height: 190px;*/  
+          }
+      }
+
+      @media (min-width: 1131px) {
+          .course-box .image-wrapper-2 img {
+              height: 405px;
+          }
+      }
+
+      @media (max-width: 1130px) and (min-width: 768px) {
+          .course-box .image-wrapper img {
+              height: 203px;
+          }
+      }
+
+      .course-box .content-wrapper {
+          text-align: left;
+          width: calc(70% - 1.62rem);
+          padding: 1rem 1.5rem;
+      }
+
+      .course-box .content-wrapper-2 {
+          text-align: left;
+          width: calc(60% - 1.62rem);
+          padding: 1rem 1.5rem;
+      }
+
+      .course-title {
+          color: #000;
+          font-family: Montserrat, sans-serif;
+          font-size: 1.75em;
+          line-height: 1.125;
+          font-weight: 700;
+      }
+
+      .course-description {
+          text-align: justify;
+          color: #000;
+          font-family: Montserrat, sans-serif;
+          letter-spacing: -.025rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.5;
+          font-weight: 400;
+          margin-top: 1rem;
+      }
+
+      .membership-section {
+          flex-wrap: wrap;
+          display: inline-flex;
+          align-items: center;
+      }
+
+      .membership-section img {
+          display: block;
+          max-width: 100%;
+          margin: auto;
+      }
+
+      .membership-section .content-wrapper,
+      .membership-section .image-wrapper {
+          width: 50%;
+      }
+
+      .membership-section .title {
+          text-align: justify;
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          letter-spacing: -.025rem;
+          width: 100%;
+          font-size: 1.75em;
+          line-height: 1.5;
+          font-weight: 700;
+          margin-bottom: 1rem;
+      }
+
+      .membership-section .description {
+          text-align: justify;
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          letter-spacing: -.025rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.5;
+          font-weight: 400;
+          margin-top: 1rem;
+      }
+
+      .instructor-section {
+          padding: 1.5rem 3rem;
+          background: #fff;
+          border-radius: 24px;
+          flex-wrap: wrap;
+          display: inline-flex;
+          align-items: center;
+          margin-top: 2rem;
+      }
+
+      .instructor-section img {
+          display: block;
+          width: 15.25rem;
+          margin: auto;
+          border-radius: 50%;
+      }
+
+      .instructor-section .title {
+          text-transform: uppercase;
+          color: #000;
+          font-family: Montserrat, sans-serif;
+          font-size: 2.5em;
+          line-height: 1.125;
+          font-weight: 900;
+          text-align: center;
+          margin-bottom: 1.25rem;
+      }
+
+      .instructor-section .description {
+          text-align: justify;
+          color: #000;
+          font-family: Montserrat, sans-serif;
+          letter-spacing: -.025rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.5;
+          font-weight: 400;
+      }
+
+      .instructor-section .image-wrapper {
+          width: 40%;
+      }
+
+      .instructor-section .content-wrapper {
+          width: 60%;
+      }
+
+      .bio-text {
+          margin: 2rem 0;
+          text-align: center;
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          letter-spacing: -.025rem;
+          width: 100%;
+          font-size: 1.75em;
+          line-height: 1.5;
+          font-weight: 700;
+      }
+
+      .brand-logos {
+          padding: 1rem 2rem;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          background-color: #fff;
+          border-radius: 1rem;
+      }
+
+      .brand-logos div {
+          flex: 1 1 10rem;
+          margin: 1rem 0.35rem;
+      }
+
+      .brand-logos img {
+          display: block;
+          max-width: 100%;
+          width: 8rem;
+          margin: auto;
+      }
+
+      .review-wrapper .header {
+          width: 44rem;
+          display: flex;
+          flex-wrap: wrap;
+          justify-items: center;
+          justify-content: center;
+          align-items: center;
+          margin: 3rem auto 1rem;
+      }
+
+      .reviewer-img {
+          width: 25%;
+      }
+
+      .reviewer-details {
+          width: 75%;
+          text-align: center;
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          font-size: 1.25em;
+          line-height: 1.125;
+          font-weight: 700;
+      }
+
+      .reviewer-img img {
+          max-width: 100%;
+          width: 68px;
+          border-radius: 3rem;
+      }
+
+      .review-text {
+          text-align: justify;
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          letter-spacing: -.025rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.5;
+          font-weight: 400;
+      }
+
+      .mail-icon {
+          display: flex;
+          border-radius: 100%;
+          align-items: center;
+          justify-content: center;
+          width: 2em;
+          height: 2em;
+          font-size: 3.75em;
+          border: solid 1px #d9d9d9;
+          color: #d9d9d9;
+          margin: 2rem auto;
+      }
+
+      .mail-icon:hover {
+          border-color: #f29db1;
+      }
+
+      .mail-icon svg {
+          width: 60%;
+          height: 60%;
+          fill: #d9d9d9;
+      }
+
+      .mail-icon:hover svg {
+          fill: #f29db1;
+      }
+
+      .about-link {
+          text-align: center;
+      }
+
+      .about-link a {
+          color: #fff;
+          text-decoration: none;
+          font-family: Montserrat, sans-serif;
+          font-size: 1.125em;
+          font-weight: 400;
+          line-height: 1.5;
+      }
+
+      .about-link a:hover {
+          text-decoration: underline;
+      }
+
+      .copyright-text {
+          color: #d9d9d9;
+          font-family: Arial, sans-serif;
+          letter-spacing: -.025rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.5;
+          font-weight: 400;
+          margin-top: 2rem;
+      }
+
+      .student-link {
+          text-decoration: none;
+      }
+
+      .student-link:hover {
+          text-decoration: underline;
+          color: white;
+      }
+
+      @media (max-width:767.98px) {
+
+          .brand-logos div,
+          .course-box .content-wrapper,
+          .course-box .content-wrapper-2,
+          .course-box .image-wrapper,
+          .course-box .image-wrapper-2,
+          .hero-section .content-wrapper,
+          .hero-section .img-wrapper,
+          .instructor-section .content-wrapper,
+          .instructor-section .image-wrapper,
+          .membership-section .content-wrapper,
+          .membership-section .image-wrapper,
+          .reviewer-details,
+          .reviewer-img {
+              width: 100%;
+          }
+
+          .instructor-section .image-wrapper {
+              margin-bottom: 2rem;
+          }
+
+          .brand-logos img.logo-img-2 {
+              margin: 1.5rem auto;
+          }
+
+          .reviewer-details br {
+              display: none;
+          }
+
+          .review-wrapper .header {
+              width: 100%;
+          }
+
+          .my-account {
+              top: 0;
+              left: 0;
+              right: 0;
+              border-radius: 0;
+          }
+
+          .my-account__logo {
+            margin: 0;
+          }
+          
+          .free-content {
+            flex-direction: column;
+          }
+      }
+
+      .no-display {
+        display: none;
+      }
+
+      @keyframes animateBG {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--  -->
+    <div class="wrapper">
+      <div class="main">
+        <div>
+          <!--  -->
+          <div class="hero-section">
+            <div class="img-wrapper">
+              <a href="https://rockthejvm.com/p/home">
+                <img
+                  src="https://www.filepicker.io/api/file/oZt3ZMwpTRuvR4k04o21"
+                  alt="Rock the JVM - learn Scala, Akka and Apache Spark"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h1 class="main-heading">Rock the jvm!</h1>
+              <p class="intro-text">
+                The zero-to-master online courses and hands-on training for Scala, Kotlin, Spark, Flink, ZIO, Akka and more.
+              </p>
+              <p class="intro-text">
+                No more mindless browsing, obscure blog posts and blurry videos.
+                Save yourself the time and frustration and follow a smooth
+                learning curve where code is king.
+              </p>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/kotlin-essentials">
+                <img
+                  src="https://cdn.filestackcontent.com/pW59E2GhTQGYVprWX6hW"
+                  alt="Kotlin Essentials online course"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/kotlin-essentials"><span style="color: #ff8800;">NEW!</span> Kotlin Essentials</a>
+              </h3>
+              <p class="course-description">
+                A new journey: learn Kotlin, the multi-platform, multi-paradigm, multi-powerful language, with hands-on practice and your first project.
+              </p>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/zio-rite-of-passage">
+                <img
+                  src="https://cdn.fs.teachablecdn.com/KYi8wlogQtSgvgkccf4P"
+                  alt="ZIO Rite of Passage"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/zio-rite-of-passage"><span style="color: #ff8800;">NEW!</span> ZIO Rite of Passage</a>
+              </h3>
+              <p class="course-description">
+                Build your product. Use the ZIO stack to <strong>build your own full-stack application in Scala 3</strong>, with credit card checkout, AI, emails, the real deal. The app we build is live <a href="https://companies.rockthejvm.com">here</a>.
+              </p>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/typelevel-rite-of-passage">
+                <img
+                  src="https://cdn.filestackcontent.com/AtCZUq1HS8SjQgHfILQR"
+                  alt="The Typelevel Rite of Passage"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/typelevel-rite-of-passage"><span style="color: #ff8800;">NEW!</span> Typelevel Rite of Passage</a>
+              </h3>
+              <p class="course-description">
+                The experience of a software engineer. Use the Typelevel stack to <strong>build your own full-stack product in Scala 3</strong>, with credit card checkout, emails, the real deal. The app we build is live <a href="https://jobs.rockthejvm.com">here</a>.
+              </p>
+            </div>
+          </div>
+
+          <!-- a small separator -->
+          <div style="margin: 5rem 0"></div>
+          <!-- a small separator -->
+
+          <div class="free-content">
+            <div class="free-content-box">
+              <div class="free-image-wrapper">
+                <a href="https://blog.rockthejvm.com">
+                  <img
+                    src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/bFrMi6keRSK7xdn8urgH"
+                    alt="Rock the JVM blog"
+                  />
+                </a>
+              </div>
+              <h3 class="box-heading course-title">
+                <a href="https://blog.rockthejvm.com">Latest Articles</a>
+              </h3>
+              <div class="content-links-container">
+
+                <a class="content-link" href="https://blog.rockthejvm.com/functional-error-handling-in-kotlin-part-3/">
+                  <span class="content-link-text">
+                  Functional Error Handling in Kotlin: the Raise DSL
+                  </span>
+                </a>
+                <a class="content-link" href="https://blog.rockthejvm.com/scala-as-a-junior-dev/">
+                  <span class="content-link-text">
+                  Scala as a Junior Developer
+                  </span>
+                </a>
+                <a class="content-link" href="https://blog.rockthejvm.com/play-framework-http-api-tutorial/">
+                  <span class="content-link-text">
+                  REST APIs in Scala with Play Framework
+                  </span>
+                </a>
+                <a class="content-link" href="https://blog.rockthejvm.com/oauth-authentication-scala-http4s/">
+                  <span class="content-link-text">
+                    OAuth Authentication in Scala with Http4s
+                  </span>
+                </a>
+                <a class="content-link" href="https://blog.rockthejvm.com/otp-authentication-scala-http4s/">
+                  <span class="content-link-text">
+                  Two-Factor Authentication and OTPs in Scala with Http4s
+                  </span>
+                </a>
+                <a class="content-link" href="https://blog.rockthejvm.com/kotlin-context-receivers/">
+                  <span class="content-link-text">
+                  Kotlin Context Receivers: A Comprehensive Guide
+                  </span>
+                </a>
+                <a class="content-link" href="https://blog.rockthejvm.com/functional-error-handling-in-kotlin-part-2/">
+                  <span class="content-link-text">
+                  Functional Error Handling in Kotlin: Result and Either
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="free-content-box">
+              <div class="free-image-wrapper">
+                <a href="https://youtube.com/rockthejvm">
+                  <img
+                    src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/FRjv6EVPQkRWF1WE9QW9"
+                    alt="Rock the JVM on YouTube"
+                  />
+                </a>
+              </div>
+              <h3 class="box-heading course-title">
+                <a href="https://youtube.com/rockthejvm">Featured Videos</a>
+              </h3>
+              <div class="content-links-container">
+                <a class="content-link" href="https://youtu.be/Wpco6IK1hmY">
+                  <span class="content-link-text">
+                  Kotlin Coroutines
+                  </span>
+                </a>  
+                <a class="content-link" href="https://www.youtube.com/watch?v=XCpGtaJjkVY">
+                  <span class="content-link-text">
+                  The FS2 Tutorial: More than Just Functional Streams for Scala
+                  </span>
+                </a>
+                <a class="content-link" href="https://www.youtube.com/watch?v=u4lTUIFm1lw">
+                  <span class="content-link-text">
+                  Apache Pulsar Tutorial
+                  </span>
+                </a>
+                <a class="content-link" href="https://www.youtube.com/watch?v=MYTFPTtOoLs">
+                  <span class="content-link-text">
+                  Kafka Streams Tutorial
+                  </span>
+                </a>
+                <a class="content-link" href="https://www.youtube.com/watch?v=CMm98RkCgPg">
+                  <span class="content-link-text">
+                  Monads are Monoids in the Category of Endofunctors - A Scala 3 Journey, No Psychobabble
+                  </span>
+                </a>
+                <a class="content-link" href="https://www.youtube.com/playlist?list=PLmtsMNDRU0ByOQoz6lnihh6CtMrErNax7">
+                  <span class="content-link-text">
+                  Type-Level Programming in Scala
+                  </span>
+                </a>
+                <a class="content-link" href="https://www.youtube.com/watch?v=sjGjoDiD2F8">
+                  <span class="content-link-text">
+                  Java for Absolute Beginners
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <h2 id="scala-courses" class="section-heading">Scala Courses</h2>
+          <!--  -->
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/scala-at-light-speed">
+                <img
+                  src="https://www.filepicker.io/api/file/MUAEWERKQuuKErQidGCb"
+                  alt="Scala at Light Speed"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/scala-at-light-speed"><span style="color: #ff8800;">FREE!</span> Scala at Light Speed</a>
+              </h3>
+              <p class="course-description">
+                For the busy programmer. Learn Scala's most important features
+                in the time it takes to watch a movie.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/scala">
+                <img
+                  src="https://www.filepicker.io/api/file/RvxMhRHKTY6wDoHGZepd"
+                  alt="Scala for Beginners"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/scala">Scala & FP Essentials </a>
+              </h3>
+              <p class="course-description">
+                <strong>Now with Scala 3.</strong> Become a Scala programmer. Dive head-first and hands-on into the
+                fundamentals of Scala and functional programming. 
+                <a href="https://rockthejvm.com/p/scala-old">Also available for Scala 2.</a>
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/advanced-scala">
+                <img
+                  src="https://www.filepicker.io/api/file/BIe9ZeSP6hSiggxTUKlQ"
+                  alt="Advanced Scala 3"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/advanced-scala">Advanced Scala</a>
+              </h3>
+              <p class="course-description">
+                <strong>Now with Scala 3.</strong> Become a true Scala rockstar. Master multithreading, abstractions,
+                advanced functional programming and more. <a href="https://rockthejvm.com/p/scala-advanced-old">Also available for Scala 2.</a>
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a
+                href="https://rockthejvm.com/p/scala-functional-programming-interview-practice"
+              >
+                <img
+                  src="https://cdn.filestackcontent.com/GIms6igsR6S6cT9OIjJC"
+                  alt="Scala and Functional Programming Practice"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/scala-functional-programming-interview-practice">Scala &amp; FP Interview Practice</a>
+              </h3>
+              <p class="course-description">
+                Nail that Scala interview. Master data structures, algorithms and the pure functional programming mindset with Scala.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper image-wrapper-2">
+              <a href="https://rockthejvm.com/p/the-scala-bundle">
+                <img
+                  src="https://www.filepicker.io/api/file/cQx59OfpRoStyyFKoXfD"
+                  alt="The Scala Bundle"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper content-wrapper-2">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/the-scala-bundle">The Scala Bundle</a>
+              </h3>
+              <p class="course-description">
+                Become one of the best Scala programmers. Take all of the above
+                at a discount, where you have everything you need to work with
+                Scala, from zero to master.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <h2 id="scala-courses" class="section-heading">ZIO</h2>
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/zio">
+                <img
+                  src="https://file-uploads.teachablecdn.com/359b868373234eeb916552f608a195e1/b01e4cefddbe43ccb0fa11c64cb1bc12"
+                  alt="ZIO 2.0 Course - courtesy of freepik.com"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/zio">ZIO</a>
+              </h3>
+              <p class="course-description">
+                Learn to write powerful applications with parallelism, concurrency and pure functional programming with one of the hottest tools in the Scala ecosystem.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <h2 id="cats-courses" class="section-heading">Typelevel</h2>
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/cats-effect">
+                <img
+                  src="https://www.filepicker.io/api/file/9tEE4OJwTWb8tPJylvfw"
+                  alt="Cats Effect"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper content-wrapper-2">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/cats-effect">Cats Effect 3</a>
+              </h3>
+              <p class="course-description">
+                Write composable, high-performance, purely functional applications and become productive with Cats Effect, one of the most powerful libraries for Scala.
+              </p>
+            </div>
+          </div>
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/cats">
+                <img
+                  src="https://www.filepicker.io/api/file/ESz5RcFVSAiEEtpOKU6V"
+                  alt="Cats"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper content-wrapper-2">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/cats">Cats</a>
+              </h3>
+              <p class="course-description">
+                Think higher level, write grounded code. Everything you need to know to write Scala with one of the most popular libraries for functional programming.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <h2 id="spark-courses" class="section-heading">Flink</h2>
+          <!--  -->
+
+          <!-- Latest course -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/flink">
+                <img
+                  src="https://file-uploads.teachablecdn.com/2f2e01c567184b17acd56a186f9686e1/ca46e2eef21c4f4a9918e531542a3c91"
+                  alt="Scala for Beginners"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/flink">Apache Flink </a>
+              </h3>
+              <p class="course-description">
+                <strong>Stream big data like a boss.</strong> Process millions of events in real time with one of the most powerful libraries and engines for stateful data streaming.
+              </p>
+            </div>
+          </div>
+
+          <!--  -->
+          <h2 id="spark-courses" class="section-heading">Spark Courses</h2>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/spark-essentials">
+                <img
+                  src="https://www.filepicker.io/api/file/6c4x4okRAOKaM667Wi3A"
+                  alt="Spark Essentials"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/spark-essentials">Spark Essentials</a>
+              </h3>
+              <p class="course-description">
+                The only Big Data course on the web with
+                <strong>real</strong> big data. Learn the most popular big data
+                toolkit while crunching billions of records, live, in record
+                time.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/spark-streaming">
+                <img
+                  src="https://www.filepicker.io/api/file/c9bk4OGyTYOcGDoMRmmD"
+                  alt="Spark Streaming"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/spark-streaming">Spark Streaming</a>
+              </h3>
+              <p class="course-description">
+                Process massive data <strong>as it arrives</strong>. Integrate
+                Spark with Kafka, JDBC, Cassandra and anything you want. Process
+                live tweets in real time and stream data like you own it.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/spark-optimization">
+                <img
+                  src="https://www.filepicker.io/api/file/LxKD7ktNQJ2psKXewaix"
+                  alt="New Spark Optimization"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/spark-optimization">Spark Optimization</a>
+              </h3>
+              <p class="course-description">
+                <strong>Write perfomant code.</strong> Learn the ins and outs of Spark and
+                make your code run blazing fast. Master tools
+                and techniques used by the very best.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/spark-performance-tuning">
+                <img
+                  src="https://www.filepicker.io/api/file/sekTTuCWQjWgiDFf5xVO"
+                  alt="New Spark Optimization 2"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/spark-performance-tuning">Spark Performance Tuning</a>
+              </h3>
+              <p class="course-description">
+                <strong>Tune Apache Spark for best performance.</strong>
+                Master Spark internals and configurations for maximum speed and memory efficiency for your cluster.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper image-wrapper-2">
+              <a href="https://rockthejvm.com/p/the-spark-bundle">
+                <img
+                  src="https://www.filepicker.io/api/file/txVtfMqwQaO43YkWWQhk"
+                  alt="The Spark Bundle"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper content-wrapper-2">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/the-spark-bundle">The Spark Bundle</a>
+              </h3>
+              <p class="course-description">
+                Take all of the above at a discount and you won't need another
+                book, video or blog again. Enjoy a complete structured journey
+                from zero to master in Apache Spark.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <h2 id="akka-courses" class="section-heading">Akka/Pekko</h2>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/akka-essentials">
+                <img
+                  src="https://cdn.filestackcontent.com/2t835Em3Rmd7hjvDBGCk"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/akka-essentials">Akka/Pekko Actors</a>
+              </h3>
+              <p class="course-description">
+                Enough threads and locks and headaches. Meet the
+                <strong>Actor Model</strong>. Dive into a better way of thinking
+                concurrent and distributed code. Also with <a href="https://rockthejvm.com/p/akka-classic-essentials">classic actors</a>.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/akka-streams">
+                <img
+                  src="https://cdn.filestackcontent.com/S41Bdn8RJuZoli5IrkiA"
+                  alt="Akka/Pekko Streams"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/akka-streams">Akka/Pekko Streams</a>
+              </h3>
+              <p class="course-description">
+                The power of <strong>Reactive Streams</strong> in your hands.
+                Learn to implement reactive data-rich systems at any scale.
+                Write in 10 lines what other people write in 3000.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/akka-http">
+                <img
+                  src="https://cdn.filestackcontent.com/SoU5h4uXQ2WIEUDKt9JD"
+                  alt="Akka/Pekko HTTP"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/akka-http">Akka/Pekko HTTP</a>
+              </h3>
+              <p class="course-description">
+                Build <strong>microservices in minutes</strong>. Write
+                stream-based REST APIs, backends and microservices, send and
+                receive JSON auto-magically, all with a powerful server DSL.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="course-box">
+            <div class="image-wrapper image-wrapper-2">
+              <a href="https://rockthejvm.com/p/the-akka-bundle">
+                <img
+                  src="https://cdn.filestackcontent.com/TtHF7ZM1Sx6NBX3AalEZ"
+                  alt="Akka/Pekko Bundle"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper content-wrapper-2">
+              <h3 class="course-title">
+                <a href="https://rockthejvm.com/p/the-akka-bundle">Akka/Pekko Bundle</a>
+              </h3>
+              <p class="course-description">
+                Take the only <strong>complete</strong> journey with Akka or Pekko on the web at a
+                discount, write thousands of lines of code, and just rock those
+                distributed systems.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <h2 id="membership" class="section-heading">The Membership</h2>
+          <!--  -->
+
+          <!--  -->
+          <div class="membership-section">
+            <div class="image-wrapper">
+              <a href="https://rockthejvm.com/p/membership">
+                <img
+                  src="https://cdn.filestackcontent.com/kKClNQUjSXmLy790EdpB"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <p class="title">Now also for <a href="https://rockthejvm.com/p/team-pack">teams!</a></p>
+              <p class="description">
+                All of Rock the JVM, at your service. Access ~250
+                hours of the best content you'll ever find, write more code than
+                many write in their careers, and be welcome in a community of
+                driven people like you.
+              </p>
+              <p class="description">
+                <a href="https://rockthejvm.com/p/membership">Learn more</a>
+                &nbsp;
+                <a href="https://rockthejvm.com/p/membership">Check the team pack</a></p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <h2 class="section-heading">The Instructor</h2>
+          <!--  -->
+
+          <!--  -->
+          <div class="instructor-section">
+            <div class="image-wrapper">
+              <a href="https://danielciocirlan.com/">
+                <img
+                  src="https://www.filepicker.io/api/file/gM75WemgSJyKxAwDJKRI"
+                />
+              </a>
+            </div>
+            <div class="content-wrapper">
+              <p class="title">Daniel Ciocîrlan</p>
+              <p class="description">
+                Software engineer and best-selling instructor. I'm an
+                avid fan of Scala, Kotlin, functional programming, big data and streaming. As of May 2023, I've taught more
+                than 80000 people all over the world.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <p class="bio-text">
+            I've taught Scala, Kotlin, Akka, Spark and more in live trainings at some of the
+            best companies in the world.
+          </p>
+          <!--  -->
+
+          <!--  -->
+          <div class="brand-logos">
+            <div>
+              <img
+                src="https://cdn.fs.teachablecdn.com/8vsYAlvkRNuDGM4tpJsU"
+              />
+            </div>
+            <div>
+              <img
+                src="https://www.filepicker.io/api/file/rUowtKsuRRWFvxgteV2x"
+              />
+            </div>
+            <div>
+              <img
+                src="https://www.filepicker.io/api/file/AWMfOsRfS9GaD4oSiIOa"
+                class="logo-img-2"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cdn.fs.teachablecdn.com/6J1j93yTiWsxWkIIaOug"
+                title="Yes, Microsoft uses Scala"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cdn.fs.teachablecdn.com/tmNxWL63TkK9EgM8Oemp"
+              />
+            </div>
+            <div>
+              <img
+                src="https://www.filepicker.io/api/file/YUqofksTvufzFebzuwZS"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cdn.fs.teachablecdn.com/XsteZyE5TayT1zO6Jk59"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cdn.fs.teachablecdn.com/ZtYRFjUHT97zaPq6J7QI"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cdn.fs.teachablecdn.com/ShQLbsvrQUW5fA9btWNp"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cdn.fs.teachablecdn.com/oBZXLrfeSrW47EnYA9uP"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cdn.fs.teachablecdn.com/f1Ol0emQRZivqvysrXql"
+              />
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <h2 class="section-heading">Reviews</h2>
+          <!--  -->
+
+          <!--  -->
+          <div class="review-wrapper">
+            <div class="header">
+              <div class="reviewer-img">
+                <img
+                  src="https://www.filepicker.io/api/file/WTNioSeFSgq3dDq4dEnN"
+                />
+              </div>
+              <div class="reviewer-details">
+                <a
+                  class="student-link"
+                  href="https://www.linkedin.com/in/mihai-fecioru-1008a4/"
+                  >Mihai Fecioru</a
+                >, Engineering Manager at Adobe<br/> (San Francisco Bay Area,
+                California)
+              </div>
+            </div>
+            <div class="review-text">
+              <em
+                >My team is expanding the use of Akka in our products so I
+                needed a quick introduction on this topic. I have tried a couple
+                of courses but the introduction to Akka was always too abrupt,
+                too hard to comprehend. I blamed Akka for this as being too hard
+                to explain. This was until I was exposed to the Rock The JVM
+                courses which were an absolute delight when it comes to
+                <strong
+                  >presenting such complex topics in such an easy to understand
+                  way</strong
+                >. And Daniel has not stopped at Akka but has added to his
+                portfolio amazing courses on Scala and Spark too. It seems like
+                he is quite enjoying taking such challenges like complex
+                technologies and making them so simple for everyone. I have
+                instantly recommended Daniel's work to my team, which helped
+                them immensely with taking their skills to a new level, and I do
+                recommend these courses to anyone who wants to have the fastest
+                ramp-up in these tough but popular technologies.</em
+              >
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="review-wrapper">
+            <div class="header">
+              <div class="reviewer-img">
+                <img
+                  src="https://www.filepicker.io/api/file/bNgIof4KSl2U0VVqqjgk"
+                />
+              </div>
+              <div class="reviewer-details">
+                <a
+                  class="student-link"
+                  href="https://www.linkedin.com/in/john-polyzos-04a60688/"
+                  >Giannis Polyzos</a
+                >, Senior Engineer at Ververica<br /> (Athens, Greece)
+              </div>
+            </div>
+            <div class="review-text">
+              <em>From Scala, to Akka, to Spark, Daniel delivers exceptional material in each and every one of these technologies. I&#39;ve been using them for a long time and there is always something new I will discover from him. <strong>The level of detail he gets into as well as the way he delivers material is mindblowing.</strong> I personally find his latest course Spark Optimization pure gold and one of a kind. I&#39;ve been using Spark for a year now and I haven&#39;t even thought how much you can leverage query plans to make such optimizations. <strong>I can&#39;t stop thinking every time, how he manages to go so deep</strong> - because using a technology is one thing, but knowing its internals so well and how everything works behind the scenes is another story when it comes to distributed systems. Long story short Daniel is definitely the best instructor I&#39;ve come across and each one of his courses is the best resource you can find online. Kudos for all your work and knowledge sharing.</em>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="review-wrapper">
+            <div class="header">
+              <div class="reviewer-img">
+                <img
+                  src="https://www.filepicker.io/api/file/ZlgCvY3SQqf11eKn9kms"
+                />
+              </div>
+              <div class="reviewer-details">
+                <a
+                  class="student-link"
+                  href="https://www.linkedin.com/in/anirban-goswami-5a724559/"
+                  >Anirban Goswami</a
+                >, Data at Apple<br /> (Cupertino, California)
+              </div>
+            </div>
+            <div class="review-text">
+              <em
+                >Daniel's courses on Scala and Big Data are the best in class.
+                I've been in touch with Daniel's teaching and courses since
+                early 2018. The first course that I took from him was Scala
+                &amp; Functional Programming; I was skeptical about it because
+                over the internet there are many courses you can find, but few
+                really worthy. I remember the very first day when Daniel started
+                to speak and shared his examples - I started to love Scala, and
+                then more as we went on. I am with Scala for the last 5 years
+                now, but never ever has anyone explained to me or gave me
+                comparable resources to Rock the JVM. Daniel gave me a shift in
+                life and
+                <strong>helped me crack top tech company interviews</strong>.
+                His courses on big data are a must for any aspiring big data
+                developer or data enthusiast. I highly recommend Daniel as an
+                educator both online and on campus.</em
+              >
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <h2 class="section-heading">Need a course or training session?</h2>
+          <!--  -->
+
+          <a class="mail-icon" href="mailto: daniel@rockthejvm.com">
+            <svg>
+              <use xlink:href="#icon-90a">
+                <svg id="icon-90a" viewBox="0 0 40 40">
+                  <path
+                    d="M37.3,15.3v15.3c0,0.8-0.3,1.6-0.9,2.2c-0.6,0.6-1.4,0.9-2.2,0.9H5.8c-0.8,0-1.6-0.3-2.2-0.9s-0.9-1.4-0.9-2.2V15.3 c0.5,0.6,1.2,1.1,2,1.7c4.7,3.1,7.9,5.4,9.6,6.7c0.7,0.5,1.4,0.9,1.8,1.2c0.4,0.3,1,0.6,1.9,0.9c0.7,0.3,1.5,0.5,2.1,0.5l0,0 c0.6,0,1.4-0.2,2.1-0.5c0.7-0.3,1.4-0.6,1.9-0.9c0.4-0.3,1-0.7,1.8-1.2c2.2-1.6,5.4-3.8,9.6-6.7C36.1,16.5,36.7,15.9,37.3,15.3 L37.3,15.3z M37.3,9.6c0,1-0.3,2-0.9,2.9c-0.6,0.9-1.5,1.8-2.4,2.4c-4.9,3.3-7.9,5.4-9,6.2c-0.1,0.1-0.4,0.3-0.8,0.6 c-0.4,0.3-0.7,0.5-1,0.7c-0.3,0.2-0.6,0.4-1,0.6c-0.4,0.2-0.7,0.4-1.1,0.5c-0.4,0.1-0.6,0.2-0.9,0.2l0,0c-0.3,0-0.6-0.1-0.9-0.2 c-0.3-0.1-0.7-0.3-1.1-0.5c-0.4-0.2-0.7-0.4-1-0.6c-0.3-0.2-0.6-0.4-1-0.7c-0.4-0.3-0.7-0.5-0.8-0.6c-1.1-0.8-2.8-2-5.1-3.5 c-2.3-1.6-3.3-2.4-3.7-2.7c-0.8-0.5-1.6-1.2-2.3-2.2s-1-1.9-1-2.6c0-1,0.3-1.9,0.8-2.5c0.5-0.6,1.2-1,2.3-1h28.4 c0.8,0,1.6,0.3,2.2,0.9C37.1,8.1,37.3,8.8,37.3,9.6L37.3,9.6z"
+                  ></path>
+                </svg>
+              </use>
+            </svg>
+          </a>
+          <!--  -->
+
+          <!--  -->
+          <div class="about-link">
+            <a href="https://rockthejvm.com/p/about-us">About us</a>
+            <br/>
+            <a href="https://rockthejvm.com/p/logo-trademarks">Logos and Trademarks</a>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="copyright-text">
+            &copy; 2021 Rock the JVM. All rights reserved.
+          </div>
+          <!--  -->
+        </div>
+        <!--  -->
+
+        <!--  -->
+        <a class="my-account" href="https://rockthejvm.com/sign_in">
+          <img
+            class="my-account__logo"
+            src="https://www.filepicker.io/api/file/bbjdMbWMQNiLBb65Q7BY"
+            alt="Rock the JVM members login"
+          />
+          <div class="my-account__title">My account</div>
+        </a>
+        <!--  -->
+      </div>
+
+    </div>
+    <!--  -->
+    <div class="no-display">
+      <svg id="articleLink" viewBox="0 0 40 40"><path d="M24.5,13.6V5.8c0.2,0.2,0.4,0.3,0.6,0.5l6.8,6.8c0.2,0.2,0.3,0.4,0.5,0.6L24.5,13.6L24.5,13.6z M22.3,14.2 c0,0.4,0.2,0.8,0.5,1.1c0.3,0.3,0.7,0.5,1.1,0.5h9v17.5c0,0.4-0.2,0.8-0.5,1.1c-0.3,0.3-0.7,0.5-1.1,0.5H9.1c-0.4,0-0.8-0.2-1.1-0.5 c-0.3-0.3-0.5-0.7-0.5-1.1V6.7c0-0.4,0.2-0.8,0.5-1.1c0.3-0.3,0.7-0.5,1.1-0.5h13.3L22.3,14.2L22.3,14.2z"></path></svg>
+    </div>
+  </body>
+</html>
